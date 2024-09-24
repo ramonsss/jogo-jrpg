@@ -205,11 +205,15 @@ public class App {
             }
 
             else if (escolha == 5) {
+                clear.clearConsole();
+                pause.pauseConsole();
                 System.out.println("*********************************");
                 System.out.println("Evellyn Raylane Ribeiro Da Silva");
                 System.out.println("João Pedro Silva Wan-Meyl");
                 System.out.println("Ramon Silva de Souza");
                 System.out.println("*********************************");
+                clear.clearConsole();
+                pause.pauseConsole();
             }
 
             else if (escolha == 6) {
