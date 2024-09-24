@@ -212,8 +212,8 @@ public class App {
                 System.out.println("João Pedro Silva Wan-Meyl");
                 System.out.println("Ramon Silva de Souza");
                 System.out.println("*********************************");
-                clear.clearConsole();
                 pause.pauseConsole();
+                clear.clearConsole();
             }
 
             else if (escolha == 6) {
