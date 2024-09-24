@@ -28,7 +28,8 @@ public class App {
             System.out.printf("\t2- Jogar\n");
             System.out.printf("\t3- Tutorial\n");
             System.out.printf("\t4- Historia\n");
-            System.out.printf("\t5- Sair\n");
+            System.out.printf("\t5- Desenvolvedores\n");
+            System.out.printf("\t6- Sair\n");
             int escolha = escolhaInput.LerNumero("->", 6);
 
             if (escolha == 1) {
@@ -204,6 +205,14 @@ public class App {
             }
 
             else if (escolha == 5) {
+                System.out.println("*********************************");
+                System.out.println("Evellyn Raylane Ribeiro Da Silva");
+                System.out.println("João Pedro Silva Wan-Meyl");
+                System.out.println("Ramon Silva de Souza");
+                System.out.println("*********************************");
+            }
+
+            else if (escolha == 6) {
                 System.exit(0);
             }
 
