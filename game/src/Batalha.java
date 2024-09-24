@@ -186,7 +186,7 @@ public class Batalha {
                         pause.pauseConsole();
                         System.out.println("Voce se defendeu");
                         pause.pauseConsole();
-                        double danoEfetivo = Math.max(1.5, inimigo.getDano() - armadura.getArmadura());
+                        double danoEfetivo = Math.max(2, inimigo.getDano() - armadura.getArmadura());
                         personagem.setPv(personagem.getPv() - danoEfetivo);
                         pause.pauseConsole();
                         clear.clearConsole();
@@ -529,7 +529,8 @@ public class Batalha {
                             pause.pauseConsole();
                             System.out.println("Voce se defendeu");
                             pause.pauseConsole();
-                            double danoEfetivo = Math.max(1.5, inimigo.getDano() - armadura.getArmadura());
+                            double danoEfetivo = Math.max(2, inimigo.getDano() - armadura.getArmadura());
+
                             personagem.setPv(personagem.getPv() - danoEfetivo);
                             pause.pauseConsole();
                             clear.clearConsole();
@@ -681,7 +682,8 @@ public class Batalha {
                             pause.pauseConsole();
                             System.out.println("Voce se defendeu");
                             pause.pauseConsole();
-                            double danoEfetivo = Math.max(1.5, inimigo.getDano() - armadura.getArmadura());
+                            double danoEfetivo = Math.max(2, inimigo.getDano() - armadura.getArmadura());
+
                             personagem.setPv(personagem.getPv() - danoEfetivo);
                             pause.pauseConsole();
                             clear.clearConsole();
@@ -1010,7 +1012,8 @@ public class Batalha {
                             pause.pauseConsole();
                             System.out.println("Voce se defendeu");
                             pause.pauseConsole();
-                            double danoEfetivo = Math.max(1.5, inimigo.getDano() - armadura.getArmadura());
+                            double danoEfetivo = Math.max(2, inimigo.getDano() - armadura.getArmadura());
+
                             personagem.setPv(personagem.getPv() - danoEfetivo);
                             pause.pauseConsole();
                             clear.clearConsole();
@@ -1133,7 +1136,8 @@ public class Batalha {
                             pause.pauseConsole();
                             System.out.println("Voce se defendeu");
                             pause.pauseConsole();
-                            double danoEfetivo = Math.max(1.5, inimigo.getDano() - armadura.getArmadura());
+                            double danoEfetivo = Math.max(2, inimigo.getDano() - armadura.getArmadura());
+
                             personagem.setPv(personagem.getPv() - danoEfetivo);
 
                             if (personagem.getPv() <= 0) {
